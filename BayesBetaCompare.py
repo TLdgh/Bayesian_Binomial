@@ -5,7 +5,7 @@ import plotly.express as px
 
 
 class CompareReview:
-    def __init__(self, data: list, nExperiments=1000000, lev=0.95):
+    def __init__(self, data: list, nExperiments=1000000, lev=0.5):
         self.data = data
         self.nExperiments = nExperiments
         self.lev = lev
